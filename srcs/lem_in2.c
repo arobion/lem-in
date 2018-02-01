@@ -6,7 +6,7 @@
 /*   By: arobion <arobion@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/30 15:24:14 by arobion           #+#    #+#             */
-/*   Updated: 2018/01/30 15:48:44 by arobion          ###   ########.fr       */
+/*   Updated: 2018/02/01 13:41:44 by arobion          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,7 @@ char		*get_ants(int *ants)
 		{
 			free(line);
 			get_next_line(0, &line);
-			ft_printf("%s\n", line);
+			print_line(line);
 			return (line);
 		}
 	}

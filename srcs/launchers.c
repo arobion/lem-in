@@ -6,7 +6,7 @@
 /*   By: arobion <arobion@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/23 11:34:25 by arobion           #+#    #+#             */
-/*   Updated: 2018/01/31 13:07:00 by arobion          ###   ########.fr       */
+/*   Updated: 2018/02/01 13:44:23 by arobion          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,21 @@ int		ft_launch_cmp(t_room *crawler, const char *current_room)
 
 void	print_and_norme(char *line, int *b)
 {
-	ft_printf("%s\n", line);
+	print_line(line);
 	*b = 0;
 }
 
 void	ft_launch_dump(t_list *list)
 {
 	ft_lstndump(&list);
+}
+
+void	print_line(char *line)
+{
+	if (line != NULL)
+	{
+		if (ft_strcmp(line, "") == 0)
+			return ;
+		ft_printf("%s\n", line);
+	}
 }

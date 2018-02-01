@@ -6,7 +6,7 @@
 /*   By: fbabin <fbabin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/01/18 18:05:23 by fbabin            #+#    #+#             */
-/*   Updated: 2018/02/01 13:04:07 by arobion          ###   ########.fr       */
+/*   Updated: 2018/02/01 13:39:14 by arobion          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -131,6 +131,7 @@ char				***mall_names(t_list **paths);
 void				print_and_norme(char *line, int *b);
 void				egalize_ants2(int *nb_ants, int nb_roads, int n);
 void				egalize_ants(int *nb_ants, int nb_roads, int n);
+void				print_line(char *line);
 
 /*
 ** ------------------------------- VISU FUNCTIONS -----------------------------
