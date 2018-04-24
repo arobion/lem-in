@@ -12,4 +12,4 @@ usage :
 
 ./lem-in < [map] | ./lem-in-visu
 
-Utilisation d'un algorythme bfs pour trouver la somme des plus petits chemins qui n'interferent pas entre eux.
+Utilisation d'un algorithme bfs pour trouver la somme des plus petits chemins qui n'interferent pas entre eux.
