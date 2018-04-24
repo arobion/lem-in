@@ -1,4 +1,4 @@
-Projet lem-in 42
+# Projet lem-in 42
 
 usage : ./lem-in < [map]
 
@@ -13,4 +13,3 @@ usage :
 ./lem-in < [map] | ./lem-in-visu
 
 Utilisation d'un algorythme bfs pour trouver la somme des plus petits chemins qui n'interferent pas entre eux.
-L'optimisation en fonction du nombre de fourmis n'est pas presente.
